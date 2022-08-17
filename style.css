@@ -43,6 +43,26 @@ h2 {
     text-transform: uppercase;
     color: #474747;
 }
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #000000;
+}
+h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    color: #333333;
+}
 .headerContainer {
     max-width: 1170px;
     width: 100%;
@@ -150,4 +170,135 @@ main {
 .benefits .mainWrapper {
     flex-direction: row;
     justify-content: space-between;
+}
+.benefits-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.benefits-img .sliderImage {
+    width: 100%;
+}
+.benefits .arrows {
+    max-width: 628px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 4vw;
+}
+.benefits .benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.benefits .benefits-list .benefits-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.benefits .benefits-list span {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background: #EFEFEF;
+    width: 333px;
+    height: 61px;    
+    margin-left: 25px;
+    padding-top: 19px;
+    padding-left: 21px;
+}
+.benefits .calculateButton {
+    background-color: var(--main-orrange);
+    border-radius: 10px;
+    width: 230px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    position: absolute;
+    right: 130px;
+    bottom: 160px;
+}
+.benefits .calculateButton img {
+    padding-left: 29px;
+}
+.benefits .calculateButton span {
+    padding-left: 13px;
+}
+.ourWorks {
+    margin-top: 67px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ourWorks .mainWrapper {
+    align-items: flex-start;
+}
+.ourWorks .ourWorksList {
+    margin-top: 19px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ourWorks .ourWorksList .ourWorksList-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourWorks .ourWorksList .ourWorksList-item img {
+    margin-top: 20px;
+}
+.testHeader {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.testHeader h3 {
+    text-align: center;
+}
+.testHeader .textContainer {
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    margin-top: 105px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .mainWrapper {
+    align-items: flex-start;
+}
+footer h1 {
+    font-size: 20.6478px;
+}
+footer h2 {
+    font-size: 17.6981px;
+}
+footer .footerLogoContainer {
+    display: flex;
+    align-items: center;
+}
+footer .footerLogoContainer .siteName {
+    margin-left: 30px;
+}
+footer .footerContactsContainer {
+    display: flex;
+    justify-content: center;
+}
+footer .footerContactsContainer .adres-socials {
+    margin-right: 17px;
+}
+footer .footerCompanyLogo {
+    margin-top: 6px;
 }
