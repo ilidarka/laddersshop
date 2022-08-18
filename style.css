@@ -176,6 +176,7 @@ main {
 .benefits .mainWrapper {
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
 }
 .benefits-img {
     display: flex;
@@ -229,8 +230,8 @@ main {
     align-items: center;
     margin-top: 10px;
     position: absolute;
-    right: 130px;
-    bottom: 160px;
+    right: 0vw;
+    bottom: -90px;
 }
 .benefits .calculateButton img {
     padding-left: 29px;
@@ -348,6 +349,9 @@ footer .footerCompanyLogo {
     }
     .benefits .benefits-list {
         margin-top: 20px;
+    }
+    .ourWorks {
+        margin-top: 110px;
     }
 }
 @media (max-width: 740px) {
