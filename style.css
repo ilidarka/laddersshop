@@ -1,3 +1,4 @@
+@import url("burgerstyle.css");
 :root {
     --main-orrange: #E77817;
 }
@@ -121,6 +122,11 @@ p {
 }
 .headerContainer .phone-requestCallButton .requestCallButton {
     margin-top: 10px;
+}
+.headerContainer .headerSocialsPhoneContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 header .navbar-container {
     max-width: 1170px;
@@ -288,6 +294,8 @@ footer h2 {
 footer .footerLogoContainer {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 footer .footerLogoContainer .siteName {
     margin-left: 30px;
@@ -301,4 +309,79 @@ footer .footerContactsContainer .adres-socials {
 }
 footer .footerCompanyLogo {
     margin-top: 6px;
+}
+@media (max-width: 1100px) {
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+@media (max-width: 1150px) {
+    .benefits-item span {
+        width: 100% !important;
+    }
+}
+@media (max-width: 1080px) {
+    .ourWorks .mainWrapper {
+        align-items: center;
+    }
+    .ourWorks .ourWorksList-item {
+        width: 50%;
+    }
+}
+@media (max-width: 952px) {
+    .benefits .mainWrapper {
+        flex-direction: column;
+    }
+    .benefits .benefits-list {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 740px) {
+    #menu {
+        display: block !important;
+    }
+    header .navbar-container {
+        display: none;
+    }
+    .benefits {
+        margin-top: 20px;
+    }
+    footer .footerContactsContainer {
+        flex-wrap: wrap;
+    }
+    p {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 600px) {
+    header .headerContainer, footer .headerContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 540px) {
+    .ourWorks .ourWorksList-item, .ourWorks .ourWorksList-item img {
+        width: 100%;
+    }
+}
+@media (max-width: 452px) {
+    header .socials, footer .socials {
+        margin-left: 0 !important;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
 }

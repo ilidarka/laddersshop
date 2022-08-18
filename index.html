@@ -7,10 +7,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./burgerstyle.css">
+    <script src="./script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a class="selected" href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+           </ul>
+        </nav> 
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
     <header>
         <div class="headerContainer">
             <div class="logo">
@@ -20,32 +38,34 @@
                 <h1>Лестницы и ограждения</h1>
                 <h2>из дерева, стекла и металла</h2>
             </div>
-            <div class="adres-socials">
-                <div class="adres">
-                    <img src="./img/mapMark.png" alt="mapMark">
-                    <span>г. Оренбург, проезд Автоматики,<br>12 (м-н «Двери», 2 этаж)</span>
-                </div>
-                <div class="socials">
-                    <img src="./img/viberIcon.png" alt="viberIcon">
-                    <img src="./img/whatsappIcon.png" alt="whatsappIcon">
-                    <img src="./img/telegramIcon.png" alt="telegramIcon">
-                    <img src="./img/instagram.png" alt="instagram">
-                </div>
-            </div>
-            <div class="phone-requestCallButton">
-                <div class="phone-mail">
-                    <img src="./img/phone.png" alt="phone">
-                    <div class="phone-mailContainer">
-                        <div class="phone">
-                            <span>(3532) 29-69-35</span>
-                        </div>
-                        <div class="mail">
-                            <span>album2004@yandex.ru</span>
-                        </div>
+            <div class="headerSocialsPhoneContainer">
+                <div class="adres-socials">
+                    <div class="adres">
+                        <img src="./img/mapMark.png" alt="mapMark">
+                        <span>г. Оренбург, проезд Автоматики,<br>12 (м-н «Двери», 2 этаж)</span>
+                    </div>
+                    <div class="socials">
+                        <img src="./img/viberIcon.png" alt="viberIcon">
+                        <img src="./img/whatsappIcon.png" alt="whatsappIcon">
+                        <img src="./img/telegramIcon.png" alt="telegramIcon">
+                        <img src="./img/instagram.png" alt="instagram">
                     </div>
                 </div>
-                <div class="requestCallButton">
-                    <button class="buttons">Заказать звонок</button>
+                <div class="phone-requestCallButton">
+                    <div class="phone-mail">
+                        <img src="./img/phone.png" alt="phone">
+                        <div class="phone-mailContainer">
+                            <div class="phone">
+                                <span>(3532) 29-69-35</span>
+                            </div>
+                            <div class="mail">
+                                <span>album2004@yandex.ru</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="requestCallButton">
+                        <button class="buttons">Заказать звонок</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -124,11 +144,11 @@
                 <h3>Текстовый блок заголовок</h3>
                 <div class="textContainer">
                     <p>
-                        По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который<br>
-                        вызывает у некторых людей недоумение при попытках прочитать рыбу текст<br>
-                        По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который<br>
-                        вызывает у некторых людей недоумение при попытках прочитать рыбу текст. По своей<br>
-                        сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает<br>
+                        По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который
+                        вызывает у некторых людей недоумение при попытках прочитать рыбу текст
+                        По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который
+                        вызывает у некторых людей недоумение при попытках прочитать рыбу текст. По своей
+                        сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает
                         у некторых людей недоумение при попытках прочитать рыбу текст
                     </p>
                 </div>
