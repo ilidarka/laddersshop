@@ -24,6 +24,9 @@ body {
     border-radius: 6px;
     border: none;
 }
+.buttons:hover {
+    color: #000;
+}
 header {
     width: 100%;
     display: flex;

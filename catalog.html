@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./burgerstyle.css">
+    <link rel="stylesheet" href="catalogstyle.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a class="selected" href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+           </ul>
+        </nav> 
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+    <header>
+        <div class="headerContainer">
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="siteName">
+                <h1>Лестницы и ограждения</h1>
+                <h2>из дерева, стекла и металла</h2>
+            </div>
+            <div class="headerSocialsPhoneContainer">
+                <div class="adres-socials">
+                    <div class="adres">
+                        <img src="./img/mapMark.png" alt="mapMark">
+                        <span>г. Оренбург, проезд Автоматики,<br>12 (м-н «Двери», 2 этаж)</span>
+                    </div>
+                    <div class="socials">
+                        <img src="./img/viberIcon.png" alt="viberIcon">
+                        <img src="./img/whatsappIcon.png" alt="whatsappIcon">
+                        <img src="./img/telegramIcon.png" alt="telegramIcon">
+                        <img src="./img/instagram.png" alt="instagram">
+                    </div>
+                </div>
+                <div class="phone-requestCallButton">
+                    <div class="phone-mail">
+                        <img src="./img/phone.png" alt="phone">
+                        <div class="phone-mailContainer">
+                            <div class="phone">
+                                <span>(3532) 29-69-35</span>
+                            </div>
+                            <div class="mail">
+                                <span>album2004@yandex.ru</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="requestCallButton">
+                        <button class="buttons">Заказать звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-container">
+            <nav>
+                <li><a href="#">Главная</a></li>
+                <li><a class="selected" href="#">Каталог</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="catalog">
+            <div class="mainWrapper">
+                <div class="catalogItems">
+                    <div class="catalogItem">
+                        <img src="./img/catalogItem1.png" alt="catalogItem">
+                        <span class="itemName">Перила для лестницы</span>
+                        <span class="itemPrice">от <span>4600 руб.</span> за 1 п.м.</span>
+                        <button class="buttons">Заказать</button>
+                    </div>
+                    <div class="catalogItem">
+                        <img src="./img/catalogItem2.png" alt="catalogItem">
+                        <span class="itemName">Пандус уличный</span>
+                        <span class="itemPrice">от <span>5000 руб.</span> за 1 п.м.</span>
+                        <button class="buttons">Заказать</button>
+                    </div>
+                    <div class="catalogItem">
+                        <img src="./img/catalogItem3.png" alt="catalogItem">
+                        <span class="itemName">Поручень</span>
+                        <span class="itemPrice">от <span>1700 руб.</span> за 1 п.м.</span>
+                        <button class="buttons">Заказать</button>
+                    </div>
+                    <div class="catalogItem">
+                        <img src="./img/catalogItem4.png" alt="catalogItem">
+                        <span class="itemName">Перила детские</span>
+                        <span class="itemPrice">от <span>7200 руб.</span> за 1 п.м.</span>
+                        <button class="buttons">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="mainWrapper">
+            <div class="headerContainer">
+                <div class="footerLogoContainer">
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                    <div class="siteName">
+                        <h1>Лестницы и ограждения</h1>
+                        <h2>из дерева, стекла и металла</h2>
+                    </div>
+                </div>
+                <div class="footerContactsContainer">
+                    <div class="adres-socials">
+                        <div class="adres">
+                            <img src="./img/mapMark.png" alt="mapMark">
+                            <span>г. Оренбург, проезд Автоматики,<br>12 (м-н «Двери», 2 этаж)</span>
+                        </div>
+                        <div class="socials">
+                            <img src="./img/viberIcon.png" alt="viberIcon">
+                            <img src="./img/whatsappIcon.png" alt="whatsappIcon">
+                            <img src="./img/telegramIcon.png" alt="telegramIcon">
+                            <img src="./img/instagram.png" alt="instagram">
+                        </div>
+                    </div>
+                    <div class="phone-requestCallButton">
+                        <div class="phone-mail">
+                            <img src="./img/phone.png" alt="phone">
+                            <div class="phone-mailContainer">
+                                <div class="phone">
+                                    <span>(3532) 29-69-35</span>
+                                </div>
+                                <div class="mail">
+                                    <span>album2004@yandex.ru</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="requestCallButton">
+                            <button class="buttons">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="footerCompanyLogo" src="./img/footerCompanyLogo.png" alt="footerCompanyLogo">
+        </div>
+    </footer>
+</body>
+</html>
