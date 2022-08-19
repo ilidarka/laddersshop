@@ -1,4 +1,4 @@
-@import url("burgerstyle.css");
+@import url("./burgerstyle.css");
 :root {
     --main-orrange: #E77817;
 }
@@ -313,6 +313,10 @@ footer .footerContactsContainer .adres-socials {
 }
 footer .footerCompanyLogo {
     margin-top: 6px;
+}
+.phone a {
+    color: #000;
+    text-decoration: none;
 }
 @media (max-width: 1100px) {
     h1 {
