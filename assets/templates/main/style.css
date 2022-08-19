@@ -347,7 +347,11 @@ footer .footerCompanyLogo {
         align-items: center;
     }
     .ourWorks .ourWorksList-item {
+        margin-top: 30px;
         width: 50%;
+    }
+    .footerCompanyLogo {
+        margin: 0 auto;
     }
 }
 @media (max-width: 952px) {
