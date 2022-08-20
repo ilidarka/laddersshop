@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/templates/main/style.css">
     <link rel="stylesheet" href="./assets/templates/main/burgerstyle.css">
     <link rel="stylesheet" href="./assets/templates/main/templateStyle.css">
+    <link rel="stylesheet" href="./assets/templates/main/modal.css">
     <script src="./assets/js/script.js" defer></script>
     <title>Document</title>
 </head>
@@ -65,7 +66,7 @@
                         </div>
                     </div>
                     <div class="requestCallButton">
-                        <button class="buttons">Заказать звонок</button>
+                        <button class="buttons" id="topPhoneButton">Заказать звонок</button>
                     </div>
                 </div>
             </div>
@@ -124,7 +125,7 @@
                             </div>
                         </div>
                         <div class="requestCallButton">
-                            <button class="buttons">Заказать звонок</button>
+                            <button class="buttons" id="bottomPhoneButton">Заказать звонок</button>
                         </div>
                     </div>
                 </div>
@@ -141,5 +142,15 @@
             </div>
         </div>
     </footer>
+    <div id="modalWindow" class="modal">
+        <div class="modal-content">
+            <span class="closeButton">&times;</span>
+            <div class="modal-items">
+                <p>Введите ваш номер</p>
+                <input type="text">
+                <button class="approveButton buttons">Заказать</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
